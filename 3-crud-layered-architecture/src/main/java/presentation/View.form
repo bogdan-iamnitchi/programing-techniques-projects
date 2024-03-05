@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentation.View">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1891" height="775"/>
+    </constraints>
+    <properties>
+      <background color="-14077899"/>
+      <preferredSize width="1800" height="1000"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f01ea" binding="topPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="0" right="20"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14077899"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ddeb1" binding="buttonsPanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14077899"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c6408" class="javax.swing.JButton" binding="productsButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13024953"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                  <foreground color="-1644826"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="true"/>
+                  <text value="Products"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="79b03" class="javax.swing.JButton" binding="homeButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13024953"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                  <foreground color="-1644826"/>
+                  <label value="Home"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="true"/>
+                  <text value="Home"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="7abf5" class="javax.swing.JButton" binding="clientsButton">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13024953"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                  <foreground color="-1644826"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="true"/>
+                  <text value="Clients"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="44523" class="javax.swing.JButton" binding="marketButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13024953"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                  <foreground color="-1644826"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="true"/>
+                  <rolloverEnabled value="true"/>
+                  <selected value="true"/>
+                  <text value="Market"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5d448" binding="titlePane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13024953"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a0fa1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono ExtraBold" size="26" style="1"/>
+                  <foreground color="-1644826"/>
+                  <text value="The Bogdan Marketplace Hub - Bringing the world of goods to you"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="1fe36" binding="bottomPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="750"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14077899"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="8ae87" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14077899"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="7e70b" binding="tabbedPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-14077899"/>
+                  <foreground color="-1644826"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="fe05c" binding="homePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="10" left="10" bottom="200" right="10"/>
+                    <constraints>
+                      <tabbedpane title="Untitled"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14077899"/>
+                      <foreground color="-13024953"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="ff8c1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="26" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="HOME PAGE"/>
+                        </properties>
+                      </component>
+                      <component id="9c640" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="22" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="- Error handling and validation are included to ensure data accuracy and error-free processing."/>
+                        </properties>
+                      </component>
+                      <component id="769b2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="22" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="- The database schema has tables for products, clients, and orders with relationships between them."/>
+                        </properties>
+                      </component>
+                      <component id="8f1d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="22" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="- The app includes a user interface layer for data input and a business logic layer for order processing."/>
+                        </properties>
+                      </component>
+                      <component id="cdd3f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="22" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="- The Orders Management app processes client orders for a warehouse using a relational database and a layered architecture pattern."/>
+                        </properties>
+                      </component>
+                      <component id="ac3bf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono ExtraBold" size="22" style="1"/>
+                          <foreground color="-1644826"/>
+                          <text value="- The app is designed to be scalable and flexible for handling a large number of orders and clients."/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="fe171" binding="marketPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Untitled"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14077899"/>
+                      <focusCycleRoot value="true"/>
+                      <foreground color="-13024953"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="575a8" binding="marketLeftPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14077899"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <scrollpane id="506c1" binding="scrollPaneClientsMarket">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                                <preferred-size width="600" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <autoscrolls value="true"/>
+                              <background color="-13024953"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="614b6" class="javax.swing.JTable" binding="clientsMarketTable" custom-create="true">
+                                <constraints/>
+                                <properties>
+                                  <autoCreateRowSorter value="false"/>
+                                  <autoResizeMode value="2"/>
+                                  <autoscrolls value="true"/>
+                                  <dragEnabled value="true"/>
+                                  <editingColumn value="0"/>
+                                  <editingRow value="0"/>
+                                  <font name="Fira Code" size="14" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <gridColor color="-13024953"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                          <scrollpane id="15fe9" binding="scrollPaneProductsMarket">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false">
+                                <preferred-size width="600" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <autoscrolls value="true"/>
+                              <background color="-13024953"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="adf3e" class="javax.swing.JTable" binding="productsMarketTable" custom-create="true">
+                                <constraints/>
+                                <properties>
+                                  <autoCreateRowSorter value="false"/>
+                                  <autoResizeMode value="2"/>
+                                  <autoscrolls value="true"/>
+                                  <dragEnabled value="true"/>
+                                  <editingColumn value="0"/>
+                                  <editingRow value="0"/>
+                                  <font name="Fira Code" size="14" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <gridColor color="-13024953"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                          <grid id="3e640" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="10" left="10" bottom="10" right="20"/>
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="500" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13024953"/>
+                              <foreground color="-1644826"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="1c881" class="javax.swing.JLabel" binding="titleLabelClientsMarket">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="20" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="CLIENTS INFO"/>
+                                </properties>
+                              </component>
+                              <vspacer id="6eed8">
+                                <constraints>
+                                  <grid row="1" column="5" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                              </vspacer>
+                              <component id="97efd" class="javax.swing.JLabel" binding="nameLabelClientsMarket">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="NAME:"/>
+                                </properties>
+                              </component>
+                              <component id="132c3" class="javax.swing.JTextField" binding="nameTextClientsMarket">
+                                <constraints>
+                                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="100" height="30"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <editable value="false"/>
+                                  <font name="Fira Code" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <margin top="4" left="12" bottom="4" right="12"/>
+                                </properties>
+                              </component>
+                              <component id="75869" class="javax.swing.JLabel" binding="addressLabelClientsMarket">
+                                <constraints>
+                                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="ADDRESS:"/>
+                                </properties>
+                              </component>
+                              <component id="92075" class="javax.swing.JTextField" binding="addressTextClientsMarket">
+                                <constraints>
+                                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="100" height="30"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <editable value="false"/>
+                                  <font name="Fira Code" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <margin top="4" left="12" bottom="4" right="12"/>
+                                </properties>
+                              </component>
+                              <component id="dcf7b" class="javax.swing.JButton" binding="selectMarketButton">
+                                <constraints>
+                                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                                    <preferred-size width="-1" height="40"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <focusPainted value="false"/>
+                                  <focusTraversalPolicyProvider value="false"/>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="SELECT"/>
+                                </properties>
+                              </component>
+                              <component id="5b78b" class="javax.swing.JButton" binding="cancelMarketButton">
+                                <constraints>
+                                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                                    <preferred-size width="-1" height="40"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <focusPainted value="false"/>
+                                  <focusTraversalPolicyProvider value="false"/>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="CANCEL"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="d53c" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="10" left="10" bottom="10" right="20"/>
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="500" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13024953"/>
+                              <foreground color="-1644826"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="1bb7c" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="20" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="PRODUCTS INFO"/>
+                                </properties>
+                              </component>
+                              <vspacer id="88169">
+                                <constraints>
+                                  <grid row="1" column="5" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                              </vspacer>
+                              <component id="16dad" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="NAME:"/>
+                                </properties>
+                              </component>
+                              <component id="c3aab" class="javax.swing.JTextField" binding="nameTextProductsMarket">
+                                <constraints>
+                                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="100" height="30"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <editable value="false"/>
+                                  <font name="Fira Code" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <margin top="4" left="12" bottom="4" right="12"/>
+                                </properties>
+                              </component>
+                              <component id="80835" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="QUANTITY:"/>
+                                </properties>
+                              </component>
+                              <component id="11" class="javax.swing.JTextField" binding="quantityTextProductsMarket">
+                                <constraints>
+                                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="100" height="30"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <editable value="false"/>
+                                  <font name="Fira Code" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <margin top="4" left="12" bottom="4" right="12"/>
+                                </properties>
+                              </component>
+                              <component id="d65d0" class="javax.swing.JLabel">
+                                <constraints>
+                                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                </constraints>
+                                <properties>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="PRICE:"/>
+                                </properties>
+                              </component>
+                              <component id="c4f67" class="javax.swing.JTextField" binding="priceTextProductsMarket">
+                                <constraints>
+                                  <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                    <preferred-size width="100" height="30"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <editable value="false"/>
+                                  <font name="Fira Code" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <margin top="4" left="12" bottom="4" right="12"/>
+                                </properties>
+                              </component>
+                              <component id="482f1" class="javax.swing.JButton" binding="deleteMarketButton">
+                                <constraints>
+                                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                                    <preferred-size width="-1" height="40"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <focusPainted value="false"/>
+                                  <focusTraversalPolicyProvider value="false"/>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="CLEAR"/>
+                                </properties>
+                              </component>
+                              <component id="3e1dc" class="javax.swing.JButton" binding="saveMarketButton">
+                                <constraints>
+                                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false">
+                                    <preferred-size width="-1" height="40"/>
+                                  </grid>
+                                </constraints>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <focusPainted value="false"/>
+                                  <focusTraversalPolicyProvider value="false"/>
+                                  <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <text value="ADD PRODUCT"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="232b8" binding="marketRightPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="10" bottom="20" right="10"/>
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14077899"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="813bc" class="javax.swing.JTextArea" binding="bill">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="500" height="50"/>
+                                <maximum-size width="550" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13024953"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="10" left="25" bottom="10" right="10"/>
+                            </properties>
+                          </component>
+                          <component id="b7759" class="javax.swing.JButton" binding="printMarketButton">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="0" left="0" bottom="0" right="0"/>
+                              <text value="PRINT BILL"/>
+                            </properties>
+                          </component>
+                          <component id="570d4" class="javax.swing.JButton" binding="sendMarketButton">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="0" left="0" bottom="0" right="0"/>
+                              <text value="SEND ORDER"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="c6afc" binding="clientsPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Untitled"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14077899"/>
+                      <foreground color="-13024953"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="f7ef5" binding="scrollPaneClients">
+                        <constraints>
+                          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <autoscrolls value="true"/>
+                          <background color="-13024953"/>
+                          <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                          <foreground color="-1644826"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="4f45d" class="javax.swing.JTable" binding="clientsTable" custom-create="true">
+                            <constraints/>
+                            <properties>
+                              <autoCreateRowSorter value="false"/>
+                              <autoResizeMode value="2"/>
+                              <autoscrolls value="true"/>
+                              <dragEnabled value="true"/>
+                              <editingColumn value="0"/>
+                              <editingRow value="0"/>
+                              <font name="Fira Code" size="14" style="1"/>
+                              <foreground color="-1644826"/>
+                              <gridColor color="-13024953"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <grid id="5e14b" binding="clientsLeftPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="10" left="10" bottom="10" right="20"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="550" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13024953"/>
+                          <foreground color="-1644826"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="bede3" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="20" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="CLIENTS PAGE"/>
+                            </properties>
+                          </component>
+                          <vspacer id="5d2ae">
+                            <constraints>
+                              <grid row="1" column="4" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </vspacer>
+                          <component id="cdb6d" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="ID:"/>
+                            </properties>
+                          </component>
+                          <component id="48e6b" class="javax.swing.JTextField" binding="idTextClients">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <editable value="true"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="1984d" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="NAME:"/>
+                            </properties>
+                          </component>
+                          <component id="93b30" class="javax.swing.JTextField" binding="nameTextClients">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="87685" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="ADDRESS:"/>
+                            </properties>
+                          </component>
+                          <component id="391b7" class="javax.swing.JTextField" binding="addresTextClients">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="8a5a2" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="EMAIL:"/>
+                            </properties>
+                          </component>
+                          <component id="4f7ba" class="javax.swing.JTextField" binding="emailTextClients">
+                            <constraints>
+                              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="1184" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="AGE:"/>
+                            </properties>
+                          </component>
+                          <component id="3be01" class="javax.swing.JTextField" binding="ageTextClients">
+                            <constraints>
+                              <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="ab2a3" class="javax.swing.JButton" binding="reloadButtonClients">
+                            <constraints>
+                              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="RELOAD"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="965fd" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="10" left="10" bottom="10" right="10"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="-1" height="100"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13024953"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="d5d55" class="javax.swing.JButton" binding="addButtonClients">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="ADD"/>
+                            </properties>
+                          </component>
+                          <component id="46bcb" class="javax.swing.JButton" binding="updateButtonClients">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="UPDATE"/>
+                            </properties>
+                          </component>
+                          <component id="61a" class="javax.swing.JButton" binding="clearButtonClients">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="CLEAR"/>
+                            </properties>
+                          </component>
+                          <component id="242a7" class="javax.swing.JButton" binding="deleteButtonClients">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="DELETE"/>
+                            </properties>
+                          </component>
+                          <scrollpane id="32cf9" binding="listScrolPaneClients">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="90" height="500"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13024953"/>
+                              <horizontalScrollBarPolicy value="31"/>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="9df66" class="javax.swing.JList" binding="listClients">
+                                <constraints/>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <font name="Fira Code SemiBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <preferredSize width="150" height="0"/>
+                                  <selectionMode value="0"/>
+                                  <verifyInputWhenFocusTarget value="true"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="cd4df" binding="productsPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Untitled"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14077899"/>
+                      <foreground color="-13024953"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="d5ac4" binding="scrollPaneProducts">
+                        <constraints>
+                          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <autoscrolls value="true"/>
+                          <background color="-13024953"/>
+                          <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                          <foreground color="-1644826"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="95605" class="javax.swing.JTable" binding="productsTable" custom-create="true">
+                            <constraints/>
+                            <properties>
+                              <autoCreateRowSorter value="false"/>
+                              <autoResizeMode value="2"/>
+                              <autoscrolls value="true"/>
+                              <dragEnabled value="true"/>
+                              <editingColumn value="0"/>
+                              <editingRow value="0"/>
+                              <font name="Fira Code" size="14" style="1"/>
+                              <foreground color="-1644826"/>
+                              <gridColor color="-13024953"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                      <grid id="444a5" binding="productsLeftPanel" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="10" left="10" bottom="10" right="20"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="550" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13024953"/>
+                          <foreground color="-1644826"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="3be46" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="20" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="PRODUCTS PAGE"/>
+                            </properties>
+                          </component>
+                          <vspacer id="c8210">
+                            <constraints>
+                              <grid row="1" column="4" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </vspacer>
+                          <component id="53ec6" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="ID:"/>
+                            </properties>
+                          </component>
+                          <component id="cd34b" class="javax.swing.JTextField" binding="idTextProducts">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <editable value="true"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="a48a6" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="NAME:"/>
+                            </properties>
+                          </component>
+                          <component id="81d9e" class="javax.swing.JTextField" binding="nameTextProducts">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="79bfd" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="QUANTITY:"/>
+                            </properties>
+                          </component>
+                          <component id="17e6e" class="javax.swing.JTextField" binding="quantityTextProducts">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="63fd4" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="PRICE:"/>
+                            </properties>
+                          </component>
+                          <component id="23a74" class="javax.swing.JTextField" binding="priceTextProducts">
+                            <constraints>
+                              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="100" height="35"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <font name="Fira Code" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <margin top="4" left="12" bottom="4" right="12"/>
+                            </properties>
+                          </component>
+                          <component id="5332f" class="javax.swing.JButton" binding="reloadButtonProducts">
+                            <constraints>
+                              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="RELOAD"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="c782f" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="10" left="10" bottom="10" right="10"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="-1" height="100"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13024953"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="cc6a" class="javax.swing.JButton" binding="addButtonProducts">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="ADD"/>
+                            </properties>
+                          </component>
+                          <component id="13228" class="javax.swing.JButton" binding="updateButtonProducts">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="UPDATE"/>
+                            </properties>
+                          </component>
+                          <component id="146" class="javax.swing.JButton" binding="clearButtonProducts">
+                            <constraints>
+                              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="CLEAR"/>
+                            </properties>
+                          </component>
+                          <component id="29a18" class="javax.swing.JButton" binding="deleteButtonProducts">
+                            <constraints>
+                              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                                <preferred-size width="-1" height="50"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-14077899"/>
+                              <focusPainted value="false"/>
+                              <focusTraversalPolicyProvider value="false"/>
+                              <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+                              <foreground color="-1644826"/>
+                              <text value="DELETE"/>
+                            </properties>
+                          </component>
+                          <scrollpane id="c3bd" binding="listScrollPaneProducts">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="90" height="500"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13024953"/>
+                              <horizontalScrollBarPolicy value="31"/>
+                              <opaque value="false"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="59388" class="javax.swing.JList" binding="listProducts">
+                                <constraints/>
+                                <properties>
+                                  <background color="-14077899"/>
+                                  <font name="Fira Code SemiBold" size="16" style="1"/>
+                                  <foreground color="-1644826"/>
+                                  <preferredSize width="150" height="0"/>
+                                  <selectionMode value="0"/>
+                                  <verifyInputWhenFocusTarget value="true"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
